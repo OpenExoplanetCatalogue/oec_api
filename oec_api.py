@@ -32,7 +32,7 @@ for filename in glob.glob(OEC_PATH + "systems/*.xml"):
 
 
 
-print "Parsing OEC doneu
+print "Parsing OEC done"
 "
 
 app = Flask(__name__)

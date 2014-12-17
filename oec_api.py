@@ -32,7 +32,8 @@ for filename in glob.glob(OEC_PATH + "systems/*.xml"):
 
 
 
-print "Parsing OEC done."
+print "Parsing OEC doneu
+"
 
 app = Flask(__name__)
 @app.route('/')
@@ -50,4 +51,4 @@ def hello_planet(planetname):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
